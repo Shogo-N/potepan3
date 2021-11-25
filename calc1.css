@@ -1,0 +1,57 @@
+.container {
+  width: 400px;
+  margin: 50px auto;
+}
+
+.output {
+  width: 400px;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  padding: 5px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  display: none;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+.output.active {
+  display: block;
+}
+
+.input {
+  width:400px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  cursor: pointer;
+}
+
+.num_bth, #clear, #equal_btn{
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 1em;
+  background: lightgray;
+  cursor: pointer;
+  margin: 5px;
+  border: 2px solid;
+  font-weight: bold;
+}
+
+.num_bth:active , #clear:active , #equal_btn:active {
+ background: gray;
+ -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+ -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+ box-shadow: inset 0px 0px 5px #c1c1c1;
+ } 
+
+#clear, #equal_btn {
+  width: 180px;
+}
